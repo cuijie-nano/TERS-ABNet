@@ -1,6 +1,11 @@
 # TERS-ABNet
 
-**TERS-ABNet** is an AI-based framework for molecular structure reconstruction from tip-enhanced Raman spectroscopy (TERS) mappings. The framework integrates two neural networks, **ANet** and **BNet**, to identify atomic positions and chemical-bond/functional-group features from TERS mapping data and reconstruct the corresponding molecular structures.
+**TERS-ABNet** is an AI-based framework for molecular structure reconstruction from tip-enhanced Raman spectroscopy (TERS) mappings. The framework integrates two neural networks, **ANet** and **BNet**, to identify atomic positions and chemical-bond/functional-group features from TERS mapping data and reconstruct the corresponding molecular structures. 
+
+The corresponding publication is in
+```text
+https://arxiv.org/abs/2603.21579
+```
 
 This repository provides the source code, trained model checkpoints, and representative examples used in the main text.
 
@@ -152,7 +157,7 @@ including both theoretical and experimental TERS data.
 If you use TERS-ABNet in your research, please cite the corresponding publication:
 
 ```text
-[Add the final publication citation here]
+https://arxiv.org/abs/2603.21579
 ```
 
 ---
