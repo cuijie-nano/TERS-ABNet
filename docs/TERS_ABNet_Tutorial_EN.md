@@ -1,6 +1,6 @@
 # TERS-ABNet Tutorial
 
-This tutorial helps new researchers and users understand TERS-ABNet, run the supplied examples, and reproduce the representative results reported in the manuscript. In this document, `<repo>` denotes the `code_upstall_new` repository root.
+This tutorial helps new researchers and users understand TERS-ABNet, run the supplied examples, and reproduce the representative results reported in the manuscript. In this document, `<repo>` denotes the `TERS-ABNet` repository root.
 
 ## 1. Overview and Background
 
