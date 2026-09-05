@@ -29,9 +29,9 @@ class AttUnet(nn.Module):
         self.conv2d_11 = nn.Conv2d(160, 64, kernel_size=3, stride=1, padding=1)
         self.conv2d_12 = nn.Conv2d(64, out_channels, kernel_size=3, stride=1, padding=1)
         
-        self.ag1 = AttentionGate(x_channels[0], q_channels[0], attention_type[0])
-        self.ag2 = AttentionGate(x_channels[1], q_channels[1], attention_type[1])
-        self.ag3 = AttentionGate(x_channels[2], q_channels[2], attention_type[2])
+        self.ag1 = AttentionGate(x_channels[0], q_channels[0], attention_type)
+        self.ag2 = AttentionGate(x_channels[1], q_channels[1], attention_type)
+        self.ag3 = AttentionGate(x_channels[2], q_channels[2], attention_type)
         
         self.avgpool2d = nn.AvgPool2d(kernel_size=2, stride=2)
         self.upsample = nn.Upsample(scale_factor=2, mode='nearest')  
